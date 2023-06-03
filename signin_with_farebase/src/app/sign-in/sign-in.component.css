@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: cursive;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  /* background-color: SteelBlue; */
+}
+.main {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
+  border-radius: 10px;
+  background-color: SteelBlue;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.5);
+}
+input {
+  width: 14em;
+  margin: 10px 0;
+  padding: 6px 0;
+}
+.forgt a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+}
+.signin{
+  margin-top: 40px;
+  text-align: center;
+}
+
+.signup{
+  margin-top: 40px;
+  text-align: center;
+  font-size: 11px;
+}
