@@ -12,8 +12,7 @@ body {
 }
 .main {
   position: absolute;
-  width: 200px;
-  height: 200px;
+  height: 269px;
   padding: 30px;
   border-radius: 10px;
   background-color: SteelBlue;
@@ -38,4 +37,8 @@ input {
   margin-top: 40px;
   text-align: center;
   font-size: 11px;
+}
+
+input.ng-invalid.ng-touched {
+  border: red 1px solid;
 }
